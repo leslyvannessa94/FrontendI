@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes</title>
+    <!--Vinculación de la hoja de estilo "Style.css":-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Vinculación Fontawesome-->
+    <script src="https://kit.fontawesome.com/f06684d50d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <!--Se dividira el header con dos etiquetas div-->
+        <div class="encabezado1">
+            <p>Descuentos 20%</p>
+        </div>
+        <div class="encabezado2">
+            <h1>Heroes</h1>
+        </div>
+    </header>
+
+    <main>
+        <!--Para poder aplicar las etiquetas flexbox debemos definir un contenedor, en este caso mi contenedor sera la
+        etiqueta "Section"-->
+        <!--Para la cards de Batman-->
+        <section class="cards_container">
+            <div class="cards_hero">
+                <div class="cards_encabezado">
+                    <div class="cars_background" id="Batman">
+                        <i class="fas fa-heart cards_like"></i>
+                        <img class="cards_profile" src="./img/Hero_1.png" alt="imagen Batman">
+                    </div>
+                </div>
+                <div class="cards_information">
+                    <h2>BATMAN</h2>
+                    <p>Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, 
+                        Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+                    </p>
+                    <button class="info_button">Ver más</button>
+                </div>
+            </div>
+            <!--Para la cards de Harley Quinn-->
+            <div class="cards_hero">
+                <div class="cards_encabezado">
+                    <div class="cars_background" id="Harley">
+                        <i class="fas fa-heart cards_like"></i>
+                        <img class="cards_profile" src="./img/Hero_2.png" alt="imagen Harley">
+                    </div>
+                </div>
+                <div class="cards_information">
+                    <h2>HARLEY QUINN</h2>
+                    <p>La creación de Harley Quinn fue una idea de último minuto propuesta por el escritor estadounidense 
+                        Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada
+                    </p>
+                    <button class="info_button">Ver más</button>
+                </div>
+            </div>
+            <!--Para la cards del Guason-->
+            <div class="cards_hero">
+                <div class="cards_encabezado">
+                    <div class="cars_background" id="Guason">
+                        <i class="fas fa-heart cards_like"></i>
+                        <img class="cards_profile" src="./img/Hero_3.jpg" alt="imagen Guason">
+                    </div>
+                </div>
+                <div class="cards_information">
+                    <h2>GUASON</h2>
+                    <p>El Joker apareció en los cómics sin ningún tipo de explicación o historia sobre su origen. ... Hasta hoy DC Comics no ha dado como oficial ninguna historia sobre el "nacimiento" del Joker, 
+                        siendo todo su pasado desconocido y la identidad del hombre detrás de la sonrisa de payaso continúa envuelta en un gran misterio.
+                    </p>
+                    <button class="info_button">Ver más</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="pie_de_pagina">
+            Todos los derechos reservados a FRONT END 1
+        </p>
+    </footer>
+</body>
+</html>
