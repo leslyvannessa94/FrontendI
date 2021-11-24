@@ -5,5 +5,24 @@ body {
 
 .encabezado1{
     background-color: #1CD1B0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
+.encabezado2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 101px;
+    left: 28px;
+    top: 66px;
+    background-color: #00669F;
+}
+.cards_hero{
+    margin: 293px;
+}
+
+.cards_background #Batman{
+    background-image: url('../img/Background_1.png');
+}
